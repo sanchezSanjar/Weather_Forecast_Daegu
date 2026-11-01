@@ -1,0 +1,25 @@
+{
+  "years": "2000-2025",
+  "mean_temperature_c": 13.8,
+  "warming_c_per_decade": 0.49,
+  "heatwave_days_per_decade_change": 11.4,
+  "tropical_nights_per_decade_change": 6.2,
+  "heatwave_days_avg_first_5_years": 10.2,
+  "heatwave_days_avg_last_5_years": 34.8,
+  "annual_precip_mm": 1102,
+  "summer_rain_share": 0.49,
+  "records": {
+    "hottest_day": {
+      "date": "2018-08-04",
+      "t_max": 41.0
+    },
+    "coldest_night": {
+      "date": "2013-01-03",
+      "t_min": -16.2
+    },
+    "wettest_day": {
+      "date": "2003-09-12",
+      "precip_mm": 129.2
+    }
+  }
+}
