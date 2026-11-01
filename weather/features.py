@@ -43,6 +43,12 @@ def build_features(df, normals):
     f["rain_last_3d"] = (df["precip_mm"] >= RAIN_DAY_MM).rolling(3).sum()
     f["sunshine"] = df["sunshine_h"]
     f["wind"] = df["wind_max_kmh"]
+    # Season: the same anomaly or pressure change means different weather in summer and winter.
+    season = season_terms(df.index)
+    for i, name in enumerate(("season_sin", "season_cos", "season_sin2", "season_cos2")):
+        f[name] = season[:, i]
+    f["pressure_change_x_season"] = f["pressure_change"] * f["season_cos"]
+    f["humidity_x_season"] = (f["humidity"] - f["humidity"].mean()) * f["season_cos"]
     return f
 
 

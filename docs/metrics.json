@@ -1,0 +1,197 @@
+{
+  "split": {
+    "train": "2000-2019",
+    "validation": "2020-2022",
+    "test": "2023-2026-10-30"
+  },
+  "temperature": {
+    "t_max": {
+      "1": {
+        "alpha": 0.1,
+        "mae_model": 2.37,
+        "mae_persistence": 2.5,
+        "mae_climatology": 3.34,
+        "interval_80": 3.67,
+        "test_days": 1398
+      },
+      "2": {
+        "alpha": 100.0,
+        "mae_model": 2.93,
+        "mae_persistence": 3.33,
+        "mae_climatology": 3.34,
+        "interval_80": 4.56,
+        "test_days": 1397
+      },
+      "3": {
+        "alpha": 100.0,
+        "mae_model": 3.06,
+        "mae_persistence": 3.71,
+        "mae_climatology": 3.34,
+        "interval_80": 4.82,
+        "test_days": 1396
+      },
+      "4": {
+        "alpha": 1000.0,
+        "mae_model": 3.16,
+        "mae_persistence": 3.88,
+        "mae_climatology": 3.34,
+        "interval_80": 4.88,
+        "test_days": 1395
+      },
+      "5": {
+        "alpha": 10.0,
+        "mae_model": 3.15,
+        "mae_persistence": 4.01,
+        "mae_climatology": 3.34,
+        "interval_80": 4.91,
+        "test_days": 1394
+      },
+      "6": {
+        "alpha": 0.1,
+        "mae_model": 3.16,
+        "mae_persistence": 4.07,
+        "mae_climatology": 3.34,
+        "interval_80": 4.92,
+        "test_days": 1393
+      },
+      "7": {
+        "alpha": 0.1,
+        "mae_model": 3.18,
+        "mae_persistence": 4.15,
+        "mae_climatology": 3.34,
+        "interval_80": 4.91,
+        "test_days": 1392
+      }
+    },
+    "t_min": {
+      "1": {
+        "alpha": 0.1,
+        "mae_model": 1.39,
+        "mae_persistence": 1.84,
+        "mae_climatology": 2.58,
+        "interval_80": 2.3,
+        "test_days": 1398
+      },
+      "2": {
+        "alpha": 0.1,
+        "mae_model": 1.98,
+        "mae_persistence": 2.56,
+        "mae_climatology": 2.58,
+        "interval_80": 3.16,
+        "test_days": 1397
+      },
+      "3": {
+        "alpha": 10.0,
+        "mae_model": 2.25,
+        "mae_persistence": 2.87,
+        "mae_climatology": 2.58,
+        "interval_80": 3.59,
+        "test_days": 1396
+      },
+      "4": {
+        "alpha": 100.0,
+        "mae_model": 2.37,
+        "mae_persistence": 3.03,
+        "mae_climatology": 2.58,
+        "interval_80": 3.73,
+        "test_days": 1395
+      },
+      "5": {
+        "alpha": 1000.0,
+        "mae_model": 2.44,
+        "mae_persistence": 3.09,
+        "mae_climatology": 2.58,
+        "interval_80": 3.77,
+        "test_days": 1394
+      },
+      "6": {
+        "alpha": 100.0,
+        "mae_model": 2.45,
+        "mae_persistence": 3.2,
+        "mae_climatology": 2.58,
+        "interval_80": 3.82,
+        "test_days": 1393
+      },
+      "7": {
+        "alpha": 0.1,
+        "mae_model": 2.47,
+        "mae_persistence": 3.31,
+        "mae_climatology": 2.58,
+        "interval_80": 3.82,
+        "test_days": 1392
+      }
+    }
+  },
+  "rain": {
+    "1": {
+      "alpha": 100.0,
+      "brier_model": 0.157,
+      "brier_climatology": 0.193,
+      "brier_persistence": 0.268,
+      "skill_vs_climatology": 0.187,
+      "auc": 0.806,
+      "accuracy": 0.775,
+      "test_days": 1398
+    },
+    "2": {
+      "alpha": 10.0,
+      "brier_model": 0.182,
+      "brier_climatology": 0.194,
+      "brier_persistence": 0.343,
+      "skill_vs_climatology": 0.061,
+      "auc": 0.741,
+      "accuracy": 0.704,
+      "test_days": 1397
+    },
+    "3": {
+      "alpha": 10.0,
+      "brier_model": 0.187,
+      "brier_climatology": 0.194,
+      "brier_persistence": 0.369,
+      "skill_vs_climatology": 0.033,
+      "auc": 0.719,
+      "accuracy": 0.704,
+      "test_days": 1396
+    },
+    "4": {
+      "alpha": 0.1,
+      "brier_model": 0.189,
+      "brier_climatology": 0.194,
+      "brier_persistence": 0.371,
+      "skill_vs_climatology": 0.025,
+      "auc": 0.71,
+      "accuracy": 0.701,
+      "test_days": 1395
+    },
+    "5": {
+      "alpha": 0.1,
+      "brier_model": 0.19,
+      "brier_climatology": 0.194,
+      "brier_persistence": 0.372,
+      "skill_vs_climatology": 0.018,
+      "auc": 0.704,
+      "accuracy": 0.707,
+      "test_days": 1394
+    },
+    "6": {
+      "alpha": 10.0,
+      "brier_model": 0.192,
+      "brier_climatology": 0.194,
+      "brier_persistence": 0.364,
+      "skill_vs_climatology": 0.011,
+      "auc": 0.697,
+      "accuracy": 0.698,
+      "test_days": 1393
+    },
+    "7": {
+      "alpha": 10.0,
+      "brier_model": 0.192,
+      "brier_climatology": 0.194,
+      "brier_persistence": 0.384,
+      "skill_vs_climatology": 0.01,
+      "auc": 0.696,
+      "accuracy": 0.698,
+      "test_days": 1392
+    }
+  }
+}
