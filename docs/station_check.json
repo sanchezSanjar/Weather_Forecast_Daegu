@@ -1,0 +1,29 @@
+{
+  "station": "Daegu WMO 47143 (Meteostat)",
+  "columns": {
+    "t_mean": {
+      "days_compared": 2799,
+      "correlation": 0.997,
+      "mean_abs_diff": 0.85,
+      "bias": -0.62
+    },
+    "t_min": {
+      "days_compared": 2799,
+      "correlation": 0.99,
+      "mean_abs_diff": 1.31,
+      "bias": -0.83
+    },
+    "t_max": {
+      "days_compared": 2799,
+      "correlation": 0.993,
+      "mean_abs_diff": 1.01,
+      "bias": -0.26
+    },
+    "pressure_hpa": {
+      "days_compared": 2799,
+      "correlation": 0.999,
+      "mean_abs_diff": 5.21,
+      "bias": -5.21
+    }
+  }
+}
